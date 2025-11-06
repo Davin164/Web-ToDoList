@@ -15,3 +15,16 @@ Project ini adalah tugas Ujian Kompetensi Keahlian saat SMK saya. Repository ini
 1. Clone repository ini  
    ```bash
    git clone https://github.com/Davin164/Web-ToDoList.git
+2. Buka folder project.
+3. Jalankan langsung index.php di browser (klik dua kali atau via Live Server di VSCode).
+4. Aplikasi akan berjalan langsung di browser tanpa server tambahan.
+
+🧑‍💻 Kontributor
+
+Nama: Davin Gabriel J
+Status: Mahasiswa Sistem Informasi
+Kampus: Universitas Sriwijaya
+
+📜 Lisensi
+Proyek ini bersifat open-source dan dapat dikembangkan lebih lanjut.
+Silakan gunakan, modifikasi, dan pelajari untuk keperluan pendidikan atau proyek pribadi.
