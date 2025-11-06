@@ -6,9 +6,9 @@ Project ini adalah tugas Ujian Kompetensi Keahlian saat SMK saya. Repository ini
 
 ## 🔧 Teknologi  
 - PHP Native  
-- HTML5  
-- CSS3  
-- JavaScript (opsional / minimal)  
+- HTML 5  
+- CSS 3  
+- JavaScript - untuk alert  
 - (Opsional) MySQL — saat ini belum terintegrasi, masih menggunakan array.
 
 ## 🚀 Cara Penggunaan  
