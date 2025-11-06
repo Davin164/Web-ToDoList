@@ -1,0 +1,117 @@
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Box form tambah tugas */
+.tambah-form {
+    background-color: #ffffff;
+    width: 550px;
+    max-width: 95%;
+    padding: 20px;
+    margin: 0 auto 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tambah-form input, 
+.tambah-form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+.tambah-form input:focus, 
+.tambah-form select:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74,144,226,0.5);
+}
+
+button[name="tambah"] {
+    padding: 10px 18px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button[name="tambah"]:hover {
+    background-color: #218838;
+}
+
+/* Card ToDo */
+.todo-item {
+    background-color: white;
+    width: 550px;
+    max-width: 95%;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-left: 6px solid #ccc;
+    transition: transform 0.2s ease-in-out;
+}
+
+.todo-item:hover {
+    transform: translateY(-3px);
+}
+
+/* Efek selesai */
+.todo-item.selesai {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+/* Warna prioritas */
+.tinggi { border-left-color: #e74c3c; }   /* merah */
+.sedang { border-left-color: #f1c40f; }  /* kuning */
+.rendah { border-left-color: #2ecc71; }  /* hijau */
+
+/* Tombol */
+.todo-item button {
+    padding: 7px 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 6px;
+}
+
+/* Hapus */
+button[name="hapus"] {
+    background-color: #e74c3c;
+    color: white;
+}
+button[name="hapus"]:hover { background-color: #c0392b; }
+
+/* Status (selesai) */
+button[name="Status"] {
+    background-color: #3498db;
+    color: white;
+}
+button[name="Status"]:hover { background-color: #2980b9; }
+
+/* Edit */
+button[name="edit"] {
+    background-color: #2ecc71;
+    color: white;
+}
+button[name="edit"]:hover { background-color: #27ae60; }
