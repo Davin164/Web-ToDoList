@@ -8,7 +8,7 @@ Project ini adalah tugas Ujian Kompetensi Keahlian saat SMK saya. Repository ini
 - PHP Native  
 - HTML 5  
 - CSS 3  
-- JavaScript - untuk alert  
+- JavaScript Native - untuk alert  
 - (Opsional) MySQL — saat ini belum terintegrasi, masih menggunakan array.
 
 ## 🚀 Cara Penggunaan  
